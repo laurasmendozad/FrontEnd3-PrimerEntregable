@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Message from "./Message";
+import Card from "./Card";
 
 const Form = () => {
   const [user, setUser] = useState({
@@ -48,7 +48,7 @@ const Form = () => {
           </h4>
         ) : null}
       </form>
-      {show && <Message nombre={user.nombre} color={user.color} />}
+      {show && <Card nombre={user.nombre} color={user.color} />}
     </div>
   );
 };

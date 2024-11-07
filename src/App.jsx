@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <h1>Elige un color</h1>
       <Form />
-      <Card />
     </div>
   );
 }
