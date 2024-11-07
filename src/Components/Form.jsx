@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Card from "./Card";
+import { formContainer } from "../styles/Form.module.css";
 
 const Form = () => {
   const [user, setUser] = useState({
@@ -22,7 +23,7 @@ const Form = () => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={formContainer}>
         <label>Nombre:</label>
         <input
           type="text"

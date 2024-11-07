@@ -1,5 +1,4 @@
-import './App.css'
-import Card from './Components/Card';
+import './styles/App.css'
 import Form from './Components/Form';
 
 function App() {
